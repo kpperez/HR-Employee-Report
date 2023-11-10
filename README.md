@@ -7,11 +7,10 @@ This project creates an employee dashboard report and builds an SQL database.
 ## Data Architecture
 ![HR-Report-Architecture](https://github.com/kpperez/HR-Employee-Report/assets/123265217/5fd02c5e-e50d-4273-b0ea-11dd734d5c76)
 ## Steps
-1. Data was saved locally as a CSV file.
-2. Using SQL data was cleaned and loaded into a MySQL database.
-3. Data was queried to answer proposed questions and saved as CSV files.
-4. Results were visualized to create a PowerBI dashboard and saved as a PDF.
-  [hr_project.pdf](https://github.com/kpperez/HR-Employee-Report/files/13321905/hr_project.pdf)
+1. Data was saved locally as a [CSV](https://github.com/kpperez/HR-Employee-Report/blob/main/Human%20Resources.csv) file.
+2. Using [SQL](https://github.com/kpperez/HR-Employee-Report/blob/main/cleaning_analysis.sql) data was cleaned and loaded into a MySQL database.
+3. Data was queried to answer proposed questions and saved as CSV files in the [analysis](https://github.com/kpperez/HR-Employee-Report/tree/main/analysis) folder.
+4. Results were visualized to create a PowerBI dashboard and saved as a [PDF](https://github.com/kpperez/HR-Employee-Report/blob/main/hr_project.pdf).
 ## Questions 
 1. What is the gender breakdown of employees in the company?
 2. What is the race/ethnicity breakdown of employees in the company?
@@ -32,7 +31,7 @@ This project creates an employee dashboard report and builds an SQL database.
 - A large number of employees work at the headquarters versus remotely.
 - The average length of employment for terminated employees is around 8 years.
 - The gender distribution across departments is fairly balanced but there are generally more male than female employees.
-- The Marketing department has the highest turnover rate followed by Training. The least turn over rate are in the Research and development, Support and Legal departments.
+- The Marketing department has the highest turnover rate followed by Training. The lowest turnover rate is in the Research and Development, Support and Legal departments.
 - A large number of employees come from the state of Ohio.
 - The net change in employees has increased over the years.
 - The average tenure for each department is about 8 years with Legal and Auditing having the highest and Services, Sales and Marketing having the lowest.
